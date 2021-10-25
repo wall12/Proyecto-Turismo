@@ -15,7 +15,7 @@
     height: 78%;
     left: 10px;
     top: 10px;
-    background: black;
+    background:transparent;
     overflow: hidden;
     border: solid 5px black;
 }
