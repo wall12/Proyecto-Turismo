@@ -3,7 +3,7 @@
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    animation: rotation 20s infinite linear;
+    animation: rotation 60s infinite linear;
 }
 #carousel:hover{
     animation-play-state: paused;
@@ -17,7 +17,7 @@
     top: 10px;
     background:transparent;
     overflow: hidden;
-    border: solid 5px black;
+    border: solid 5px transparent;
 }
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2){ transform: rotateY(40deg) translateZ(288px);}
@@ -32,7 +32,7 @@
 #carousel img{
     /* -webkit-filter: grayscale(1); */
     cursor: pointer;
-    transition: all .5s ease;
+    transition: all .15s ease;
     width: 90%;
 }
 #carousel img:hover{
